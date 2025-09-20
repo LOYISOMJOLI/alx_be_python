@@ -1,5 +1,3 @@
-# start of the program
-
 weather = input("what's the weather like today? (sunny/rainy/cold)").lower()
 
 if weather == "sunny":

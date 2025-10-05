@@ -14,4 +14,4 @@ class BankAccount:
 
 #This function is for displaying the baalance
     def display_balance(self):
-        print(f"Current Balance: ${self.account_balance}")
+        print(f"Current Balance: ${round(self.account_balance,2)}")

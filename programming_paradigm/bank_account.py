@@ -11,8 +11,6 @@ class BankAccount:
         if self.account_balance >= amount:
             self.account_balance -= amount
             return True
-        else:
-            print("Insufficient funds")
 
 #This function is for displaying the baalance
     def display_balance(self):
